@@ -1,6 +1,6 @@
 https://thecodingmachine.github.io/react-native-boilerplate/docs/BetaBuild
 
-Install dependencies:
+Install
 ```console
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
@@ -27,3 +27,5 @@ pod update hermes-engine --no-repo-update
 
 
 
+cd ios
+fastlane init
