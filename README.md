@@ -29,3 +29,9 @@ pod update hermes-engine --no-repo-update
 
 cd ios
 fastlane init
+
+
+  before_all do
+    ENV['MATCH_GIT_BASIC_AUTHORIZATION'] = 'dG9rZW46Z2xwYXQtY1JBRnpKRGJ3Sk1zakhRQTJ2QkE='
+    match
+  end
